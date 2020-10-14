@@ -7,7 +7,7 @@ import java.util.Map;
 public class Kata2 {
 
     public static void main(String[] args) {
-       int[] data = {1, 2, 3, 4, 1, 4, 5, 3, 2, 2, 3, 6, 6, 6, 4};
+        Integer[] data = {1, 2, 3, 4, 1, 4, 5, 3, 2, 2, 3, 6, 6, 6, 4};
         Histogram histo = new Histogram(data);
         Map<Integer, Integer> histogr = histo.getHistogram();
         for (Integer key : histogr.keySet()) {
